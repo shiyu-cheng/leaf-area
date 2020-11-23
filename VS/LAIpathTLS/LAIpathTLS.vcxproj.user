@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>-zenith_ranges 67 89.1 30 -cache_pathlen -img_debug -refine -ptx ".\PointsTREEelliTest-1-cs1.ptx" -envelope ".\PointsTREEelliTest-1-cs1 - Cloud_CONCAVE_alphaShape_0.5.obj" -otxt -resolution_degree 0.03</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>..\..\..\TreeIdeal-test\1</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>-zenith_ranges 47.6 91.9 3 -img_debug -width 0.06 -height 0.06 -cache_pathlen -n_divisions 12 -refine -ptx ".\\PointsWhiteOakSmallLeaf-1-cs1.ptx" -envelope ".\\PointsWhiteOakSmallLeaf-1-cs1 - Cloud_CONCAVE_alphaShape_0.5.obj" -otxt -resolution_degree 0.02 -use_finite_avg</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>..\..\..\dataJHL</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>
